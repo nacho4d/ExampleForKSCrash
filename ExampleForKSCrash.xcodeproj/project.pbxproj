@@ -13,6 +13,8 @@
 		4F6BE65626CC0BD3009F86A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6BE65426CC0BD3009F86A8 /* Main.storyboard */; };
 		4F6BE65826CC0BD6009F86A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6BE65726CC0BD6009F86A8 /* Assets.xcassets */; };
 		4F6BE65B26CC0BD6009F86A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6BE65926CC0BD6009F86A8 /* LaunchScreen.storyboard */; };
+		4F6BE66426CC0D36009F86A8 /* KSCrash in Frameworks */ = {isa = PBXBuildFile; productRef = 4F6BE66326CC0D36009F86A8 /* KSCrash */; };
+		4F6BE66826CC0E8B009F86A8 /* MyCrashInstallation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6BE66726CC0E8B009F86A8 /* MyCrashInstallation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		4F6BE65726CC0BD6009F86A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F6BE65A26CC0BD6009F86A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F6BE65C26CC0BD6009F86A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6BE66726CC0E8B009F86A8 /* MyCrashInstallation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCrashInstallation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6BE66426CC0D36009F86A8 /* KSCrash in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +63,7 @@
 				4F6BE64E26CC0BD3009F86A8 /* AppDelegate.swift */,
 				4F6BE65026CC0BD3009F86A8 /* SceneDelegate.swift */,
 				4F6BE65226CC0BD3009F86A8 /* ViewController.swift */,
+				4F6BE66726CC0E8B009F86A8 /* MyCrashInstallation.swift */,
 				4F6BE65426CC0BD3009F86A8 /* Main.storyboard */,
 				4F6BE65726CC0BD6009F86A8 /* Assets.xcassets */,
 				4F6BE65926CC0BD6009F86A8 /* LaunchScreen.storyboard */,
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = ExampleForKSCrash;
+			packageProductDependencies = (
+				4F6BE66326CC0D36009F86A8 /* KSCrash */,
+			);
 			productName = ExampleForKSCrash;
 			productReference = 4F6BE64B26CC0BD3009F86A8 /* ExampleForKSCrash.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 4F6BE64226CC0BD3009F86A8;
+			packageReferences = (
+				4F6BE66226CC0D36009F86A8 /* XCRemoteSwiftPackageReference "KSCrash" */,
+			);
 			productRefGroup = 4F6BE64C26CC0BD3009F86A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F6BE65326CC0BD3009F86A8 /* ViewController.swift in Sources */,
+				4F6BE66826CC0E8B009F86A8 /* MyCrashInstallation.swift in Sources */,
 				4F6BE64F26CC0BD3009F86A8 /* AppDelegate.swift in Sources */,
 				4F6BE65126CC0BD3009F86A8 /* SceneDelegate.swift in Sources */,
 			);
@@ -200,7 +212,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -289,6 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2DF73ZW2D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExampleForKSCrash/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -296,6 +309,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +330,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2DF73ZW2D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExampleForKSCrash/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +374,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F6BE66226CC0D36009F86A8 /* XCRemoteSwiftPackageReference "KSCrash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:kstenerud/KSCrash.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F6BE66326CC0D36009F86A8 /* KSCrash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F6BE66226CC0D36009F86A8 /* XCRemoteSwiftPackageReference "KSCrash" */;
+			productName = KSCrash;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4F6BE64326CC0BD3009F86A8 /* Project object */;
 }

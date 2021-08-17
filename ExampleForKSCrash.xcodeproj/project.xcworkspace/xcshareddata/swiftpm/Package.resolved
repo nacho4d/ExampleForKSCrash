@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KSCrash",
+        "repositoryURL": "git@github.com:kstenerud/KSCrash.git",
+        "state": {
+          "branch": null,
+          "revision": "f45a917d93928b32626f3268239c58a6cdd852bb",
+          "version": "1.15.25"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
