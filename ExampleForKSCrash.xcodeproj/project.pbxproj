@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2D14B526CEA45900337F6C /* KSCrash in Frameworks */ = {isa = PBXBuildFile; productRef = 4F2D14B426CEA45900337F6C /* KSCrash */; };
 		4F5EF22A26CC8A7300A9DD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EF22926CC8A7300A9DD80 /* AppDelegate.swift */; };
 		4F5EF22C26CC8A7300A9DD80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EF22B26CC8A7300A9DD80 /* SceneDelegate.swift */; };
 		4F5EF22E26CC8A7300A9DD80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EF22D26CC8A7300A9DD80 /* ViewController.swift */; };
 		4F5EF23126CC8A7300A9DD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EF22F26CC8A7300A9DD80 /* Main.storyboard */; };
 		4F5EF23326CC8A7500A9DD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EF23226CC8A7500A9DD80 /* Assets.xcassets */; };
 		4F5EF23626CC8A7500A9DD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EF23426CC8A7500A9DD80 /* LaunchScreen.storyboard */; };
-		4F5EF23F26CC8B0000A9DD80 /* KSCrash in Frameworks */ = {isa = PBXBuildFile; productRef = 4F5EF23E26CC8B0000A9DD80 /* KSCrash */; };
 		4F5EF24126CC8C8600A9DD80 /* MyCrashInstallation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EF24026CC8C8600A9DD80 /* MyCrashInstallation.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5EF23F26CC8B0000A9DD80 /* KSCrash in Frameworks */,
+				4F2D14B526CEA45900337F6C /* KSCrash in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			);
 			name = ExampleForKSCrash;
 			packageProductDependencies = (
-				4F5EF23E26CC8B0000A9DD80 /* KSCrash */,
+				4F2D14B426CEA45900337F6C /* KSCrash */,
 			);
 			productName = ExampleForKSCrash;
 			productReference = 4F5EF22626CC8A7300A9DD80 /* ExampleForKSCrash.app */;
@@ -119,7 +119,7 @@
 			);
 			mainGroup = 4F5EF21D26CC8A7300A9DD80;
 			packageReferences = (
-				4F5EF23D26CC8B0000A9DD80 /* XCRemoteSwiftPackageReference "KSCrash" */,
+				4F2D14B326CEA45900337F6C /* XCRemoteSwiftPackageReference "KSCrash" */,
 			);
 			productRefGroup = 4F5EF22726CC8A7300A9DD80 /* Products */;
 			projectDirPath = "";
@@ -355,20 +355,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4F5EF23D26CC8B0000A9DD80 /* XCRemoteSwiftPackageReference "KSCrash" */ = {
+		4F2D14B326CEA45900337F6C /* XCRemoteSwiftPackageReference "KSCrash" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:kstenerud/KSCrash.git";
+			repositoryURL = "git@github.com:nacho4d/KSCrash.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.15.25;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4F5EF23E26CC8B0000A9DD80 /* KSCrash */ = {
+		4F2D14B426CEA45900337F6C /* KSCrash */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4F5EF23D26CC8B0000A9DD80 /* XCRemoteSwiftPackageReference "KSCrash" */;
+			package = 4F2D14B326CEA45900337F6C /* XCRemoteSwiftPackageReference "KSCrash" */;
 			productName = KSCrash;
 		};
 /* End XCSwiftPackageProductDependency section */

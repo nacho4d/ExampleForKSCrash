@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "KSCrash",
-        "repositoryURL": "git@github.com:kstenerud/KSCrash.git",
+        "repositoryURL": "git@github.com:nacho4d/KSCrash.git",
         "state": {
-          "branch": null,
-          "revision": "f45a917d93928b32626f3268239c58a6cdd852bb",
-          "version": "1.15.25"
+          "branch": "master",
+          "revision": "301172cc43f0f588d78382585423cdbf8c0222d7",
+          "version": null
         }
       }
     ]
